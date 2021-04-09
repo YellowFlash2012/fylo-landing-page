@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
+    
     box-sizing: border-box;
 }
 
@@ -50,6 +49,10 @@ nav {
     font-family: 'Raleway', sans-serif;
     padding: 10px 20px;
     text-decoration: none;
+}
+
+.nav-links li a:hover {
+    border-bottom: 1px solid #fff;
 }
 
 .hamburger {
@@ -100,6 +103,11 @@ p {
     );
     margin: 15px;
     font-weight: 700;
+}
+
+.btn:hover {
+    background-color: hsl(198, 60%, 50%);
+    color: black;
 }
 
 /* FEATURES */
@@ -241,6 +249,8 @@ form p {
     color: #fff;
 }
 
+
+
 /* FOOTER */
 
 footer {
@@ -275,6 +285,10 @@ footer {
     text-decoration: none;
 }
 
+.footer-section ul a:hover {
+    border-bottom: 1px solid #fff;
+}
+
 .footer-section.social-icons {
     display: flex;
     flex-direction: row;
@@ -295,6 +309,8 @@ footer {
     /* height: 30px;
     width: 30px; */
 }
+
+
 
 
 .footer-section.social-icons ul {
